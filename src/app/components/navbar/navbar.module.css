@@ -1,0 +1,21 @@
+.parent {
+  background-color: grey;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: relative;
+  position: fixed;
+  padding: 1rem 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
