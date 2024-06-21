@@ -1,3 +1,12 @@
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+}
 .container:hover {
   color: rgb(203, 203, 203);
   position: relative;

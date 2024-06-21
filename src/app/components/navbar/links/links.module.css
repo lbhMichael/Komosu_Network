@@ -12,9 +12,25 @@
   width: 50%;
   height: calc(100vh - 100px);
   background-color: purple;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1em;
+}
+
+.menuButton {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .menuButton {
+    display: block;
+  }
+
+  .mobileLinks {
+    display: flex;
+  }
+  .links {
+    display: none;
+  }
 }
